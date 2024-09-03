@@ -1,0 +1,87 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(129, 218, 218);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: rgb(223, 217, 217);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.signup-form h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="text"],
+.signup-form input[type="tel"],
+.signup-form input[type="date"],
+.signup-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: solid ;
+    border-radius: 5px;
+}
+.signup-form input[type="submit"] {
+    background-color: rgb(129, 218, 218);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 13px;
+}
+
+.signup-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#comments{
+    height: 50px;
+}
+#male{
+    height: 15px;
+    width: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#female{
+    height: 15px;
+    width: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+#para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}

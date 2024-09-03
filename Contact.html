@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="signup-form">
+        <h2>Contact Me</h2>
+        <form id="signupForm" onclick="return validateForm()">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            <span id="nameError" class="error"></span>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <span id="emailError" class="error"></span>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+            <span id="phoneError" class="error"></span>
+
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="male" ><span id="para">Male</span>
+            <input type="radio" id="female" name="female"><span id="para">Female</span>
+
+            <label for="comments">Comments</label>
+            <input type="text" id="comments" name="comments" placeholder="" required minlength="200">
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>
